@@ -1,1 +1,5 @@
 /app/etc/local.xml
+.idea
+var/*
+includes/*
+.DS_Store
