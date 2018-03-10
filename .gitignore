@@ -1,5 +1,12 @@
-/app/etc/local.xml
-.idea
-var/*
-includes/*
 .DS_Store
+.idea
+*.sql
+*.gz
+*.tar
+*.psd
+/app/etc/local.xml
+var/*
+!/var/.htaccess
+includes/*
+!/includes/.htaccess
+!/includes/config.php
