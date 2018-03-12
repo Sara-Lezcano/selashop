@@ -10,3 +10,9 @@ var/*
 includes/*
 !/includes/.htaccess
 !/includes/config.php
+/media/
+!/media/.htaccess
+/vendor/
+/composer.json
+/deploy.php
+/composer.lock
