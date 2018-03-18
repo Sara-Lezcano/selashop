@@ -66,7 +66,7 @@ ul,ol         { list-style:none; }
 
 /* Layout ================================================================================ */
 .wrapper {}
-.page { width:1000px; margin:0 auto; padding:10px 0; text-align:left; }
+/*.page { width:1000px; margin:0 auto; padding:10px 0; text-align:left; }*/
 .page-print { background:#fff; padding:20px; text-align:left; }
 .page-empty { background:#fff; padding:20px; text-align:left; }
 .page-popup { padding:20px; text-align:left; }
@@ -75,7 +75,7 @@ ul,ol         { list-style:none; }
 
 /* Base Columns */
 .col-left { float:left; width:230px; border:1px solid #ddd; padding:5px 5px 0; }
-.col-main { float:left; width:736px; border:1px solid #ddd; padding:5px; }
+.col-main { float:left; width:736px; border:none; padding:5px; }
 .col-right { float:right; width:230px; border:1px solid #ddd; padding:5px 5px 0; }
 
 /* 1 Column Layout */
@@ -408,6 +408,7 @@ tr.summary-details-excluded { font-style:italic; }
 .notice-cookie .notice-inner { width:870px; margin:0 auto; padding:12px 0 12px 80px; background:url(../images/i_notice.gif) 20px 25px no-repeat; text-align:left; }
 .notice-cookie .notice-inner p { margin:0 0 10px; border:1px dotted #cccc73; padding:10px; }
 .notice-cookie .notice-inner .actions { }
+.global-site-notice {display: none}
 
 /* ======================================================================================= */
 
@@ -861,8 +862,188 @@ tr.summary-details-excluded { font-style:italic; }
 .advanced-search-summary {}
 
 /* CMS Home Page */
-.cms-home .subtitle {}
-.cms-index-index .subtitle {}
+/*.cms-home .subtitle {}*/
+/*.cms-index-index .subtitle {}*/
+.cms-home .container{ width: 95%;margin: auto}
+
+.cms-home .wrap {
+    background: url("../../../../../media/wysiwyg/lamp_1.png") no-repeat #F5F5F5 80% 0;
+    margin-bottom: 10px;
+    /*height: 100vh;*/
+}
+.cms-home .wrap a:hover {
+    color: #F4D0A1;
+    border-color: #F4D0A1;
+}
+.cms-home .wrap_1 {
+    background: url("../../../../../media/wysiwyg/sofa_2.png") no-repeat #F5F5F5 0;
+    margin-bottom: 10px;
+    /*height: 100vh;*/
+}
+.cms-home .wrap_1 a:hover {
+    color: #276C74;
+    border-color: #276C74;
+}
+.cms-home .wrap_2 {
+    background: url("../../../../../media/wysiwyg/chair.png") no-repeat #F5F5F5 80% 20%;
+    margin-bottom: 10px;
+    /*height: 100vh;*/
+}
+.cms-home .wrap_2 a:hover {
+    color: #F2B9DA;
+    border-color: #F2B9DA;
+}
+.cms-home .wrap_3 {
+    background: url("../../../../../media/wysiwyg/table.jpg") no-repeat #F5F5F5 15% 20%;
+    margin-bottom: 10px;
+    /*height: 100vh;*/
+}
+.cms-home .wrap_3 a:hover {
+    color: #D9BE9D;
+    border-color: #D9BE9D;
+}
+.cms-home .wrap_4 {
+    background: url("../../../../../media/wysiwyg/table_modern.png") no-repeat #F5F5F5 right 20%;
+    margin-bottom: 10px;
+    /*height: 100vh;*/
+}
+.cms-home .wrap_4 a:hover {
+    color: #C9C09F;
+    border-color: #C9C09F;
+}
+.cms-home .wrap_5 {
+    background: url("../../../../../media/wysiwyg/lamp.png") no-repeat #F5F5F5 20% 0;
+    margin-bottom: 10px;
+    /*height: 100vh;*/
+}
+.cms-home .wrap_5 a:hover {
+    color: #12575F;
+    border-color: #12575F;
+}
+.cms-home .wrap-description {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+
+}
+.cms-home .box-description p {
+    padding: 40px 0;
+    font-size: 20px;
+}
+.cms-home .box-description h2 {
+    font-size: 100px;
+}
+.cms-home .box-description a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 13px 30px;
+    border: 2px solid black;
+    text-transform: uppercase;
+}
+.cms-home .box-description {
+    /*position: relative;*/
+    /*width: 500px;*/
+}
+/*media queries home*/
+@media ( min-width: 350px) {
+    .cms-home .wrap-description {color: #FFFFFF;background: rgba(0, 0, 0, 0.19);
+    }
+
+    .cms-home .box-description {padding: 0 20px
+    }
+
+    .cms-home .wrap, .cms-home .wrap_2, .cms-home .wrap_3, .cms-home .wrap_5 {background-position: center 0
+    }
+
+    .wrap, .wrap_1, .wrap_2, .wrap_3, .wrap_4, .wrap_5 {height: 100%;
+    }
+
+    .cms-home .wrap-description h2 {font-size: 60px
+    }
+
+    .cms-home .wrap-description p {font-size: 18px
+    }
+
+    .cms-home .wrap-description a {color: #FFFFFF;border-color: #FFFFFF;
+    }
+}
+
+@media ( min-width: 576px) {
+    .cms-home .wrap-description {color: #FFFFFF;background: rgba(0, 0, 0, 0.19);
+    }
+
+    .cms-home .box-description {padding: 0 20px
+    }
+
+    .cms-home .wrap, .cms-home .wrap_2, .cms-home .wrap_3, .cms-home .wrap_5 {background-position: center 0
+    }
+
+    .wrap, .wrap_1, .wrap_2, .wrap_3, .wrap_4, .wrap_5 {height: 100%;
+    }
+
+    .cms-home .wrap-description h2 {font-size: 70px
+    }
+
+    .cms-home .wrap-description p {font-size: 18px
+    }
+
+    .cms-home .wrap-description a {color: #FFFFFF;border-color: #FFFFFF;
+    }
+}
+@media ( min-width: 768px) {
+    .cms-home .wrap-description {color: #FFFFFF;background: rgba(0, 0, 0, 0.19);
+    }
+
+    .cms-home .box-description {padding: 0 20px
+    }
+
+    .cms-home .wrap, .cms-home .wrap_2, .cms-home .wrap_3, .cms-home .wrap_5 {background-position: center 0
+    }
+
+    .wrap, .wrap_1, .wrap_2, .wrap_3, .wrap_4, .wrap_5 {height: 100%;
+    }
+
+    .cms-home .wrap-description h2 {font-size: 80px
+    }
+
+    .cms-home .wrap-description p {font-size: 20px
+    }
+
+    .cms-home .wrap-description a {color: #FFFFFF;border-color: #FFFFFF;
+    }
+}
+@media ( min-width: 992px) {
+    .cms-home .wrap-description {width:80%;margin:auto;background:none; color: #000000; text-align:left; justify-content:left;
+    }
+
+    .cms-home .box-description {padding: 0 20px
+    }
+
+    .cms-home .wrap {background-position: 92% 0 ;
+    }
+    .cms-home .wrap_2 {background-position: 94%;
+    }
+    .cms-home .wrap_3 {background-position:8%;
+    }
+    .cms-home .wrap_5 {background-position:12% 0;
+    }
+    .cms-home .right{position: relative; left: 44%;}
+
+    .wrap, .wrap_1, .wrap_2, .wrap_3, .wrap_4, .wrap_5 {height: 100%;
+    }
+
+    .cms-home .wrap-description h2 {font-size: 100px
+    }
+
+    .cms-home .wrap-description p {font-size: 20px
+    }
+
+    .cms-home .wrap-description a {color: #000000;border-color:#000000;
+    }
+}
+
 
 /* Sitemap */
 .page-sitemap .links { text-align:right; margin:0 8px -22px 0; }
