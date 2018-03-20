@@ -944,6 +944,7 @@ tr.summary-details-excluded { font-style:italic; }
 }
 .cms-home .clients{ padding: 10px 0 0 0;}
 .cms-home .clients img{width: 115px}
+
 /*media queries hom{e*/
 @media ( min-width: 350px) {
     .cms-home .wrap-description {color: #FFFFFF;background: rgba(0, 0, 0, 0.19);
