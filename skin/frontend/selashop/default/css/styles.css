@@ -130,7 +130,7 @@ ul,ol         { list-style:none; }
 
 /* Global Styles ========================================================================= */
 /* Form Elements */
-input,select,textarea,button { font:12px Arial, Helvetica, sans-serif; vertical-align:middle; color:#000; }
+input,select,textarea,button { font-family: 'SourceSansPro', SansSerif; vertical-align:middle; color:#000;}
 input.input-text,select,textarea { background:#fff; border:1px solid #ddd; }
 input.input-text,textarea { padding:2px; }
 select { padding:1px; }
@@ -447,6 +447,7 @@ tr.summary-details-excluded { font-style:italic; }
 .header .welcome-msg a {}
 .header .links { float:right; }
 .header .form-search label {display: none;}
+.form-search input{ padding: 3px 30px; display: none;}
 .header .form-search { text-align:right;}
 .header .form-search .search-autocomplete { z-index:999; }
 .header .form-search .search-autocomplete ul { border:1px solid #ddd; background-color:#fff; }
@@ -471,6 +472,7 @@ tr.summary-details-excluded { font-style:italic; }
 #nav li a:hover { text-decoration:none; }
 #nav li a span { display:block; white-space:nowrap; cursor:pointer; }
 #nav li ul a span { white-space:normal; }
+.quick-access .form-search {display: flex;align-items: center;}
 
 /* 1st Level */
 #nav li { float:left; }
