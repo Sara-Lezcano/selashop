@@ -21,9 +21,10 @@
 <?php endif; ?>
 
     <li><a><i class="fa fa-cog fa-2x"></i></a>
-        <ul style="display: none">
-            <li>My Account</li>
-            <li>My Wishlist</li>
+        <ul class="account">
+            <li>Account</li>
+            <li>Wishlist</li>
+            <li><?php echo $this->getChildHtml('store_language') ?></li>
             <li>Log In</li>
         </ul>
     </li>

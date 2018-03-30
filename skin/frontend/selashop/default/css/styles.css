@@ -13,22 +13,22 @@ a:hover       { text-decoration:none; }
 /*fonts*/
 @font-face{
     font-family: 'Montserrat';
-    src:url('fonts/Montserrat-Bold.ttf');
+    src:url('../fonts/Montserrat-Bold.ttf');
     font-weight:bold;
 }
 @font-face{
     font-family: 'SourceCodePro';
-    src:url('fonts/SourceCodePro-Regular.ttf');
+    src:url('../fonts/SourceCodePro-Regular.ttf');
       font-weight:normal;
 }
 @font-face{
     font-family: 'SourceCodeProLight';
-    src:url('fonts/SourceCodePro-Light.ttf');
+    src:url('../fonts/SourceCodePro-Light.ttf');
     font-weight:normal;
 }
 @font-face{
     font-family: 'SourceSansPro';
-    src:url('fonts/SourceSansPro-Light.ttf');
+    src:url('../fonts/SourceSansPro-Light.ttf');
     font-weight:normal;
 }
 
@@ -436,7 +436,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 /* Header ================================================================================ */
 .logo { float:left;}
-.header-container {}
+.header-container { font-family:'SourceSansPro'; }
 .wrap-header{display: flex; justify-content: space-between;align-items: center;}
 .header { border:none; padding: 2px 50px 0 50px;border-right: 1px solid #ddd }
 .header .logo { float:left; text-decoration:none !important; }
@@ -446,6 +446,9 @@ tr.summary-details-excluded { font-style:italic; }
 .header .welcome-msg { font-weight:bold; text-align:right; display: none;}
 .header .welcome-msg a {}
 .header .links { float:right; }
+.quick-access ul li .account {font-size:11px;display: block;margin: 0;position: absolute;background:#fff;text-align: left;}
+.quick-access ul li .account > li {border-bottom: 1px solid #ddd; padding:5px;}
+.quick-access ul li .account > li:hover{background: #ddd}
 .header .form-search label {display: none;}
 .form-search input{ padding: 3px 30px; display: none;}
 .header .form-search { text-align:right;}
