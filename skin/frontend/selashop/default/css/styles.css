@@ -446,7 +446,7 @@ tr.summary-details-excluded { font-style:italic; }
 .header .welcome-msg { font-weight:bold; text-align:right; display: none;}
 .header .welcome-msg a {}
 .header .links { float:right; }
-.quick-access ul li .account {font-size:11px;display: block;margin: 0;position: absolute;background:#fff;text-align: left;}
+.quick-access ul li .account {font-size:11px;display: block;margin: 0;position: absolute;background:#fff;text-align: left; display: none;}
 .quick-access ul li .account > li {border-bottom: 1px solid #ddd; padding:5px;}
 .quick-access ul li .account > li:hover{background: #ddd}
 .header .form-search label {display: none;}
@@ -980,7 +980,7 @@ tr.summary-details-excluded { font-style:italic; }
     border: 2px solid black;
     text-transform: uppercase;
 }
-.cms-home .clients{ padding: 10px 0 0 0;}
+.cms-home .clients{ padding: 0 0 10px 0;}
 .cms-home .clients img{width: 115px}
 
 /* media queries home */
