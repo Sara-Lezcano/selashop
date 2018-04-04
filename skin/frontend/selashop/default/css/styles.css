@@ -446,11 +446,12 @@ tr.summary-details-excluded { font-style:italic; }
 .header .welcome-msg { font-weight:bold; text-align:right; display: none;}
 .header .welcome-msg a {}
 .header .links { float:right; }
-.quick-access ul li .account {font-size:11px;display: block;margin: 0;position: absolute;background:#fff;text-align: left; display: none;}
+.quick-access ul li .account {font-size:11px;margin: 0;display:block;position: absolute;background:#fff;text-align: left;}
 .quick-access ul li .account > li {border-bottom: 1px solid #ddd; padding:5px;}
 .quick-access ul li .account > li:hover{background: #ddd}
 .header .form-search label {display: none;}
-.form-search input{ padding: 3px 30px; display: none;}
+#search{}
+.form-search input{ padding: 3px 50px;transition: all .2s;}
 .header .form-search { text-align:right;}
 .header .form-search .search-autocomplete { z-index:999; }
 .header .form-search .search-autocomplete ul { border:1px solid #ddd; background-color:#fff; }
