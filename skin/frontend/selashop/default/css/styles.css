@@ -517,9 +517,8 @@ tr.summary-details-excluded { font-style:italic; }
     .header-container{width: 100%; text-align: center;}
     .header .logo{float: none;}
     .header .logo img{width: 130px;}
-    #nav{display:flex; flex-direction:column;position: absolute; top:104px;background: #ffffff;width:100%;padding: 0}
-    #nav li{padding: 15px;border-bottom: 1px solid #888888}
-    #nav li:hover{background:}
+    #nav{display:flex; flex-direction:column;position: absolute; top:104px;background: #ffffff;width:100%;padding: 0;}
+    #nav li{padding: 15px;border-bottom: 1px solid #888888;}
     #nav li a{color: #888888; }
     .nav-container i.fa-bars{padding-left:20px;color: #888888;}
     .wrap-header .quick-access i{border: none}
@@ -527,13 +526,12 @@ tr.summary-details-excluded { font-style:italic; }
     #nav {}
 }
 @media ( min-width: 576px){
-    .wrap-header{flex-wrap: wrap}
+    .wrap-header{flex-wrap: wrap;}
     .header-container{width: 100%; text-align: center;}
     .header .logo{float: none;}
     .header .logo img{width: 130px;}
-    #nav{display:flex; flex-direction:column;position: absolute; top:104px;background: #ffffff;width:100%;padding: 0}
-    #nav li{padding: 15px;border-bottom: 1px solid #888888}
-    #nav li:hover{background:}
+    #nav{display:flex; flex-direction:column;position: absolute; top:104px;background: #ffffff;width:100%;padding: 0;}
+    #nav li{padding: 15px;border-bottom: 1px solid #888888;}
     #nav li a{color: #888888; }
     .nav-container i.fa-bars{padding-left:20px;color: #888888;}
     .wrap-header .quick-access i{border: none}
@@ -544,9 +542,8 @@ tr.summary-details-excluded { font-style:italic; }
     .header-container{width: 100%; text-align: center;}
     .header .logo{float: none;}
     .header .logo img{width: 130px;}
-    #nav{display:flex; flex-direction:column;position: absolute; top:104px;background: #ffffff;width:100%;padding: 0}
-    #nav li{padding: 15px;border-bottom: 1px solid #888888}
-    #nav li:hover{background:}
+    #nav{display:flex; flex-direction:column;position: absolute; top:104px;background: #ffffff;width:100%;padding: 0;}
+    #nav li{padding: 15px;border-bottom: 1px solid #888888;}
     #nav li a{color: #888888; }
     .nav-container i.fa-bars{padding-left:20px;color: #888888;}
     .wrap-header .quick-access i{border: none}
