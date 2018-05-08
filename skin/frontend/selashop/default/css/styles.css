@@ -132,7 +132,7 @@ ul,ol         { list-style:none; }
 /* Form Elements */
 input,select,textarea,button { font-family: 'SourceSansPro', SansSerif; vertical-align:middle; color:#000;}
 input.input-text,select,textarea { background:#fff; border:1px solid #ddd; }
-input.input-text,textarea { padding:2px; }
+input.input-text,textarea { padding: 12px 0; }
 select { padding:1px; }
 select option { padding-right:10px; }
 select.multiselect option { border-bottom:1px solid #ddd; padding:2px 5px; }
@@ -162,8 +162,8 @@ p.control input.radio { margin-right:6px; }
 /* Grouped fields */
 /*.form-list { width:535px; margin:0 auto; overflow:hidden; }*/
 .form-list li { margin:0 0 8px; }
-.form-list label { float:left; color:#111; font-weight:bold; position:relative; z-index:0; }
-.form-list label.required {}
+.form-list label { float:left; color:#111; font-weight:bold; position:relative; z-index:0;}
+.form-list label.required {display:block;}
 .form-list label.required em { float:right; font-style:normal; color:#eb340a; position:absolute; top:0; right:-8px; }
 .form-list li.control label { float:none; }
 .form-list li.control input.radio,
@@ -172,10 +172,10 @@ p.control input.radio { margin-right:6px; }
 /*.form-list li.fields { margin-right:-15px; }*/
 .form-list .input-box { display:block; clear:both; width:100%; }
 .form-list .field { float:left; width:100%; }
-.form-list input.input-text { width:254px; }
-.form-list textarea { width:254px; height:10em; }
+.form-list input.input-text { width:100%; }
+.form-list textarea { width:254px; height:13em; }
 .form-list select { width:260px; }
-.form-list li.wide .input-box { width:535px; }
+.form-list li.wide .input-box { width:535px;}
 .form-list li.wide input.input-text { width:529px; }
 .form-list li.wide textarea { width:529px; }
 .form-list li.wide select { width:535px; }
@@ -244,7 +244,7 @@ p.control input.radio { margin-right:6px; }
 .form-list .customer-dob .dob-year { width:140px; }
 .form-list .customer-dob .dob-year input.input-text { width:134px; }
 
-.buttons-set { clear:both; margin:5px 0 0; padding:5px; border:1px solid #ddd; }
+.buttons-set { clear:both; margin:5px 0 0; padding:5px; border:1px solid #ddd; display: flex;justify-content: center;}
 .buttons-set .back-link { float:left; }
 .buttons-set button.button { float:right; }
 .buttons-set p.required { margin:0 0 5px; }
@@ -258,17 +258,23 @@ p.control input.radio { margin-right:6px; }
 .validation-advice { clear:both; min-height:13px; margin:3px 0 0; padding-left:17px; font-size:10px; line-height:13px; background:url(../images/validation_advice_bg.gif) 2px 1px no-repeat; color:#f00; }
 .validation-failed { border:1px dashed #f00 !important; background:#faebe7 !important; }
 .validation-passed {}
-p.required { font-size:10px; text-align:right; color:#f00; }
+p.required { font-size:10px; text-align:right; color:#f00; display: none;}
+
 /*style contact*/
-.wrap-contact{font-family: 'SourceSansPro', SansSerif;}
+.wrap-contact{font-family: 'SourceSansPro', SansSerif;margin: 10px 0 10px 0;}
+.wrap-contact .fieldset{margin-bottom: 40px;}
+.page-title h1 > span{color:#AA547D;}
+.wrap-contact button{background:#AA547D;padding: 15px 30px;color:#ffffff;}
+.wrap-contact form{padding-bottom: 50px;border: 1px dashed #ddd;}
+ .buttons-set{border: none;text-align:center;  }
 .map{padding:20px;}
 .map h2{font-weight: lighter; font-size: 30px; padding: 50px 0 30px 0;}
 .wrap-contact .form-list{display: flex; padding: 20px;}
 .wrap-contact .icons-contact{display: flex;justify-content: space-around; font-weight: lighter;color:#888888;padding: 30px;}
 .wrap-contact .icons-contact p{font-size: 16px; text-transform: uppercase;padding: 20px 0;line-height: 1.5;}
 .wrap-contact .icons-contact span{display:inline-block;border:1px solid #ddd;padding: 15px 20px;border-radius: 50%; }
-.wrap-contact .inpus-box{display: flex;flex-direction: column; width: 100%;}
-.wrap-contact{width: 80%;margin: auto;}
+.wrap-contact .inpus-box{display: flex;flex-direction: column; width: 100%; padding-right: 25px;}
+.wrap-contact{width: 80%; margin: auto ;margin-bottom: 40px; border-bottom:1px dashed #ddd;padding-bottom: 190px;}
 /* Expiration date and CVV number validation fix */
 .v-fix { float:left; }
 .v-fix .validation-advice { display:block; width:12em; margin-right:-12em; position:relative; }
@@ -298,7 +304,7 @@ p.required { font-size:10px; text-align:right; color:#f00; }
 
 /* Page Heading */
 .page-title { border-bottom:1px solid #ddd; padding:0; margin:0 0 10px; }
-.page-title h1{font-size: 13px;color: #888888;text-align: left;padding: 10px 0 10px 157px;background: #ddd; border: 1px solid #ddd;}
+.page-title h1{font-size: 13px;color: #888888;text-align: left;padding: 10px 0 10px 157px;background: #ddd; border: 1px solid #ddd;font-family: 'SourceSansPro', SansSerif;}
 .page-title h2 { font-size:18px; color:#000; }
 .page-title .separator { margin:0 3px; }
 .page-title .link-rss { float:right; }

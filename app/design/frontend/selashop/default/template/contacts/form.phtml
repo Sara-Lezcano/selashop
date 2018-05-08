@@ -2,7 +2,7 @@
 ?>
 <div id="messages_product_view"><?php echo $this->getMessagesBlock()->toHtml() ?></div>
 <div class="page-title">
-    <h1><?php echo Mage::helper('contacts')->__('Home > <span>Contact Us</span>') ?></h1>
+    <h1><?php echo Mage::helper('contacts')->__('Home  >  <span>Contact Us</span>') ?></h1>
 </div>
 <div class="wrap-contact">
 <form action="<?php echo $this->getFormAction(); ?>" id="contactForm" method="post">
@@ -57,15 +57,17 @@
             </li>
         </ul>
     </div>
-<!--    <div class="buttons-set">-->
-<!--        <p class="required">--><?php //echo Mage::helper('contacts')->__('* Required Fields') ?><!--</p>-->
-<!--        <input type="text" name="hideit" id="hideit" value="" style="display:none !important;" />-->
-<!--        <button type="submit" title="--><?php //echo Mage::helper('core')->quoteEscape(Mage::helper('contacts')->__('Submit')) ?><!--" class="button"><span><span>--><?php //echo Mage::helper('contacts')->__('Submit') ?><!--</span></span></button>-->
-<!--    </div>-->
+    <div class="buttons-set">
+        <p class="required"><?php echo Mage::helper('contacts')->__('* Required Fields') ?></p>
+        <input type="text" name="hideit" id="hideit" value="" style="display:none !important;" />
+        <button type="submit" title="<?php echo Mage::helper('core')->quoteEscape(Mage::helper('contacts')->__('Submit')) ?>" class="button"><span><span><?php echo Mage::helper('contacts')->__('SEND MESSAGE') ?></span></span></button>
+    </div>
 </form>
+</div>
 <script type="text/javascript">
 //<![CDATA[
     var contactForm = new VarienForm('contactForm', true);
 //]]>
 </script>
-</div>
+
+
