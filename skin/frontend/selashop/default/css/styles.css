@@ -262,7 +262,6 @@ p.required { font-size:10px; text-align:right; color:#f00; display: none;}
 
 /*style contact*/
 .wrap-contact{font-family: 'SourceSansPro', SansSerif;margin: 10px 0 10px 0;}
-.wrap-contact .fieldset{margin-bottom: 40px;}
 .page-title h1 > span{color:#AA547D;}
 .wrap-contact button{background:#AA547D;padding: 15px 30px;color:#ffffff;}
 .wrap-contact form{padding-bottom: 50px;border: 1px dashed #ddd;}
@@ -274,7 +273,7 @@ p.required { font-size:10px; text-align:right; color:#f00; display: none;}
 .wrap-contact .icons-contact p{font-size: 16px; text-transform: uppercase;padding: 20px 0;line-height: 1.5;}
 .wrap-contact .icons-contact span{display:inline-block;border:1px solid #ddd;padding: 15px 20px;border-radius: 50%; }
 .wrap-contact .inpus-box{display: flex;flex-direction: column; width: 100%; padding-right: 25px;}
-.wrap-contact{width: 80%; margin: auto ;margin-bottom: 40px; border-bottom:1px dashed #ddd;padding-bottom: 190px;}
+.wrap-contact{width: 80%; margin: auto ;margin-bottom: 15px; border-bottom:1px dashed #ddd;padding-bottom: 190px;}
 /* Expiration date and CVV number validation fix */
 .v-fix { float:left; }
 .v-fix .validation-advice { display:block; width:12em; margin-right:-12em; position:relative; }
@@ -1070,8 +1069,8 @@ tr.summary-details-excluded { font-style:italic; }
     border: 2px solid black;
     text-transform: uppercase;
 }
-.cms-home .clients{ padding: 0 0 10px 0;}
-.cms-home .clients img{width: 115px}
+.clients{ padding: 0 0 10px 0;}
+.clients img{width: 115px}
 
 /* media queries home */
 @media ( min-width: 350px) {
