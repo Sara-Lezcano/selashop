@@ -268,7 +268,7 @@ p.required { font-size:10px; text-align:right; color:#f00; display: none;}
 .wrap-contact form{padding-bottom: 50px;border: 1px dashed #ddd;}
  .buttons-set{border: none;text-align:center;  }
 .map{padding:20px;}
-.map h2{font-weight: lighter; font-size: 30px; padding: 50px 0 30px 0;}
+.map h2{font-weight: lighter; font-size: 30px; padding: 50px 0 40px 0;}
 .wrap-contact .form-list{display: flex; padding: 20px;}
 .wrap-contact .icons-contact{display: flex;justify-content: space-around; font-weight: lighter;color:#888888;padding: 30px;}
 .wrap-contact .icons-contact p{font-size: 16px; text-transform: uppercase;padding: 20px 0;line-height: 1.5;}
@@ -278,7 +278,25 @@ p.required { font-size:10px; text-align:right; color:#f00; display: none;}
 /* Expiration date and CVV number validation fix */
 .v-fix { float:left; }
 .v-fix .validation-advice { display:block; width:12em; margin-right:-12em; position:relative; }
-
+/* media queries contact   */
+@media ( min-width: 350px){
+    .map h2{font-size: 25px;}
+    .wrap-contact .icons-contact{
+        flex-direction: column;
+    }
+    .wrap-contact .form-list{
+        flex-direction: column;
+    }
+    .wrap-contact .inpus-box{
+        padding-right: 0;
+    }
+    .form-list li.wide .input-box {
+        width:100%;
+    }
+    .form-list li.wide textarea{
+        width: 100%;
+    }
+}
 /* Global Messages  */
 .success { color:#3d6611; font-weight:bold; }
 .error { color:#f00; font-weight:bold; }
