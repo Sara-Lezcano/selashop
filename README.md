@@ -17,7 +17,7 @@ You can see the live site in this url http://sela.saralezcano.com/
 ### Categories (No Sidebar)
 ![categories_no_sitebar](https://user-images.githubusercontent.com/18714923/39959161-bb3c68fa-5605-11e8-8a9f-51523244f327.png)
 ### Categories (Sidebar left List)
-TBC
+![categories_sitebar_left_list](https://user-images.githubusercontent.com/18714923/39959266-23171bd6-5607-11e8-8a71-de86c5c0efc3.png)
 ### Categories (Sidebar left Grid)
 TBC
 ### Product Detail
