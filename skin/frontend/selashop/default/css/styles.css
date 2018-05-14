@@ -309,9 +309,17 @@ p.required { font-size:10px; text-align:right; color:#f00; display: none;}
 .notice-msg { border-color:#fcd344; background-color:#fafaec; background-image:url(../images/i_msg-note.gif); color:#3d6611; }
 
 /* BreadCrumbs */
-.breadcrumbs { padding:10px; margin:0 0 10px; border:1px solid #ddd; }
+.breadcrumbs { padding:10px; margin:0 0 10px; border:1px solid #ddd; background: #ddd;display: none; }
 .breadcrumbs li { display:inline; }
-
+/* style about us */
+.wrap-about{font-family: 'SourceSansPro', SansSerif;}
+.wrap-history{width: 80%; margin: auto;padding: 20px;}
+.wrap-history p{font-size: 20px; letter-spacing: 1px;}
+.wrap-about h1{background: #ddd; padding: 10px 0 10px 157px; font-size: 13px;text-align: left;}
+.wrap-about h2{font-size: 50px; font-weight: bolder;}
+.wrap-about span{color:#AA547D;}
+.wrap-about .our-history{text-align: left;font-family: 'SourceSansPro', SansSerif; font-size: 16px;}
+.wrap-history{display: flex;}
 /* Page Heading */
 .page-title { border-bottom:1px solid #ddd; padding:0; margin:0 0 10px; }
 .page-title h2 { font-size:18px; color:#000; }
