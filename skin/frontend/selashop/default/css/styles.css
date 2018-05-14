@@ -33,7 +33,7 @@ a:hover       { text-decoration:none; }
 }
 
 /* Headings */
-h1            { font-size:20px; font-weight:normal; line-height:1.15; }
+h1            { font-weight:normal; line-height:1.15; }
 h2            { font-size:18px; font-weight:bold; line-height:1; }
 h3            { font-size:16px; font-weight:bold; line-height:1.25; }
 h4            { font-size:14px; font-weight:bold; }
@@ -263,7 +263,7 @@ p.required { font-size:10px; text-align:right; color:#f00; display: none;}
 
 /*style contact*/
 .wrap-contact{font-family: 'SourceSansPro', SansSerif;margin: 10px 0 10px 0;}
-.page-title h1 > span{color:#AA547D;}
+h1 > span{color:#AA547D;}
 .wrap-contact button{background:#AA547D;padding: 15px 30px;color:#ffffff;}
 .wrap-contact form{padding-bottom: 50px;border: 1px dashed #ddd;}
 .buttons-set{border: none;text-align:center;  }
@@ -389,8 +389,16 @@ tr.summary-details-excluded { font-style:italic; }
 .cart-tax-info .price,
 .cart-tax-total .price { display:inline !important; font-weight:normal !important; }
 .cart-tax-total-expanded { background-position:100% -53px; }
-
+/*style page error*/
 /* Class: std - styles for admin-controlled content */
+.std{border-top: 1px solid #ddd;font-family: 'SourceSansPro', SansSerif;}
+.std h1{font-size:13px;background: #ddd; text-align: left;padding: 10px 0 10px 157px;}
+.std h2{font-size: 255px;padding: 70px 0 20px 0; font-weight: bolder;font-family: 'SourceCodeProLight';}
+.std p{text-transform: uppercase;font-family: 'SourceCodeProLight';font-size: 22px;}
+.page_error div{border:1px solid #000000;margin: 45px auto;width: 450px;padding: 10px 0;}
+.std input{border: none; width:400px;font-size:15px;}
+.std i{font-size: 18px;color:#aaabaa;}
+.std button{margin-bottom:120px;font-weight:bolder;font-size: 16px;color: #AA547D;border: 2px solid #AA547D;text-transform: uppercase;padding: 10px 20px}
 .std .subtitle { padding:0; }
 .std ol.ol { list-style:decimal outside; padding-left:1.5em; }
 .std ul.disc { list-style:disc outside; padding-left:18px; margin:0 0 10px; }
@@ -415,8 +423,7 @@ tr.summary-details-excluded { font-style:italic; }
 .std address { font-style:normal; }
 .std b,
 .std strong { font-weight:bold; }
-.std i,
-.std em { font-style:italic; }
+
 
 /* Misc */
 .links li { display:inline; }
@@ -1425,7 +1432,7 @@ tr.summary-details-excluded { font-style:italic; }
 .gift-message dt strong { color:#666; }
 .gift-message dd { font-size:13px; margin:5px 0 0; }
 /* Order Comments */
-.order-about dt { font-weight:bold; }
+.order-about dt { font-weight:bold;}
 .order-about dd { font-size:13px; margin:0 0 7px; }
 
 .tracking-table { margin:0 0 15px; }
