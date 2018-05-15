@@ -313,13 +313,19 @@ p.required { font-size:10px; text-align:right; color:#f00; display: none;}
 .breadcrumbs li { display:inline; }
 /* style about us */
 .wrap-about{font-family: 'SourceSansPro', SansSerif;}
-.wrap-history{width: 80%; margin: auto;padding: 20px;}
+.wrap-history{width: 80%; margin: auto;padding: 90px 0;}
 .wrap-history p{font-size: 20px; letter-spacing: 1px;}
 .wrap-about h1{background: #ddd; padding: 10px 0 10px 157px; font-size: 13px;text-align: left;}
-.wrap-about h2{font-size: 50px; font-weight: bolder;}
+.wrap-about h2{font-size: 50px; font-weight: bolder; padding-bottom: 50px;}
 .wrap-about span{color:#AA547D;}
+.our-history{padding: 20px;}
+.wrap-about .our-history  p{padding-bottom: 20px;}
 .wrap-about .our-history{text-align: left;font-family: 'SourceSansPro', SansSerif; font-size: 16px;}
 .wrap-history{display: flex;}
+.wrap-history button{border: 1px solid #ddd; border-radius: 20px; padding: 10px 30px; font-size: 16px; font-weight: bolder;}
+.wrap-history button:hover {border: 1px solid #AA547D;}
+.wrap-photo{padding-top: 50px;}
+.slogan{background: #AA547D;padding: 40px 170px;font-size: 30px;color: white;}
 /* Page Heading */
 .page-title { border-bottom:1px solid #ddd; padding:0; margin:0 0 10px; }
 .page-title h2 { font-size:18px; color:#000; }
