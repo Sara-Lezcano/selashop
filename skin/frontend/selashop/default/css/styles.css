@@ -324,15 +324,17 @@ p.required { font-size:10px; text-align:right; color:#f00; display: none;}
 .wrap-history{display: flex;}
 .wrap-history button{border: 1px solid #ddd; border-radius: 20px; padding: 10px 30px; font-size: 16px; font-weight: bolder;}
 .wrap-history button:hover {border: 1px solid #AA547D;}
-.wrap-photo{padding-top: 50px;}
+.wrap-photo{padding-top: 35px;}
 .slogan{background: #AA547D;padding: 40px 170px;font-size: 30px;color: white;}
-.wrap-team{background: #F8F8F8;}
+.wrap-team{background: #F8F8F8;padding-bottom: 70px; margin-bottom: 20px;}
 .our-team{width: 80%; margin: auto;}
 .our-team h3{font-size: 30px;font-weight: bold;text-transform: uppercase;padding: 70px 0 20px 0;}
 .wrap-team .our-team p{font-size: 20px; padding: 0 0 20px 0;}
+.our-team .wrap-social h4{padding-top: 30px; font-size:20px;text-transform: uppercase;font-weight: bolder;}
+.our-team .wrap-social h5{font-size: 16px;}
 .team-photo{display: flex;}
 .team-photo div{margin: 6px; background: #ffffff;}
-.team-photo .social{display: flex; margin: 0;padding-top: 30px;}
+.team-photo .social{display: flex; margin: 0;padding-top:40px;}
 .team-photo .social i{font-size: 22px; padding: 15px 20px;color: #ffffff;}
 .team-photo .social i:first-child{background: #0A246A;}
 .team-photo .social i:nth-child(2){background:#1ea1f2;}
