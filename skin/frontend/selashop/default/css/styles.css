@@ -346,7 +346,7 @@ p.required { font-size:10px; text-align:right; color:#f00; display: none;}
 .team-photo .social i:last-child{background: #bd081c;}
 .team-photo ,wrap-social img{width: 285px; margin: 2px;}
 /* medias queries aboutUs */
-@media ( min-width: 320px) {
+@media ( min-width: 360px) {
     .wrap-about h1 {padding: 10px 0 10px 20px;text-align: left;font-size: 18px;}
     .wrap-history {flex-direction: column;}
     .wrap-photo {width: 100%;}
