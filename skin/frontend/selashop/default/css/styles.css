@@ -333,7 +333,12 @@ p.required { font-size:10px; text-align:right; color:#f00; display: none;}
 .team-photo{display: flex;}
 .team-photo div{margin: 6px; background: #ffffff;}
 .team-photo .social{display: flex; margin: 0;padding-top: 30px;}
-.team-photo .social i{font-size: 22px; padding: 15px 20px;background: red;}
+.team-photo .social i{font-size: 22px; padding: 15px 20px;color: #ffffff;}
+.team-photo .social i:first-child{background: #0A246A;}
+.team-photo .social i:nth-child(2){background:#1ea1f2;}
+.team-photo .social i:nth-child(3){background:#c53187; }
+.team-photo .social i:nth-child(4){background: #0176b5;}
+.team-photo .social i:last-child{background: #bd081c;}
 .team-photo img{width: 285px; margin: 2px;}
 
 /* Page Heading */
