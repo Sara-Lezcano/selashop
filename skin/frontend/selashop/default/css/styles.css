@@ -636,7 +636,8 @@ tr.summary-details-excluded { font-style:italic; }
 .header .welcome-msg a {}
 .header .links { float:right; }
 .quick-access ul li .account { font-family :'SourceSansPro';font-size:12px;margin: 0;position: absolute;background:#fff;text-align: left; display: none;}
-.quick-access ul .desplegable:hover ul{display: block;}
+.quick-access ul .dropdown:hover ul{display: block;}
+.quick-access ul .dropdown ul li a{color:#000; text-decoration: none;}
 .quick-access ul li .account > li {border-bottom: 1px solid #ddd; padding:5px;}
 .quick-access ul li .account > li:hover{background: #ddd}
 .header .form-search label {display: none;}
