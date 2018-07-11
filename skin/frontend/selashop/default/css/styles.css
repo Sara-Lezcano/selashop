@@ -172,7 +172,7 @@ p.control input.radio { margin-right:6px; }
 /*.form-list li.fields { margin-right:-15px; }*/
 .form-list .input-box { display:block; clear:both; width:100%; }
 .form-list .field { float:left; width:100%; margin-bottom: 10px;}
-.form-list input.input-text { width:100%; padding-left: 5px }
+.form-list input.input-text { width:100%; box-sizing: border-box; }
 .form-list textarea { width:254px; height:13em; max-width: 100%; }
 .form-list select { width:260px; }
 .form-list li.wide .input-box { width:535px;}
@@ -266,7 +266,7 @@ p.required { font-size:10px; text-align:right; color:#f00; display: none;}
 .page-title h1 > span{color:#AA547D;}
 .wrap-contact button{background:#AA547D;padding: 15px 30px;color:#ffffff;}
 .wrap-contact form{padding-bottom: 50px;border: 1px dashed #ddd;}
-.buttons-set{border: none;text-align:center;  }
+.wrap-contact .buttons-set{border: none;text-align:center;  }
 .wrap-contact button:hover{ background: #E457B2;}
 .map{padding:20px;}
 .map h2{font-weight: lighter; font-size: 30px; padding: 50px 0 40px 0;}
@@ -278,7 +278,7 @@ p.required { font-size:10px; text-align:right; color:#f00; display: none;}
 .wrap-contact{width: 80%; margin: auto ;margin-bottom: 15px; border-bottom:1px dashed #ddd;padding-bottom: 190px;}
 .wrap-contact textarea{padding-left: 5px;}
 
-.page-title h1{font-size: 13px;color: #888888;text-align: left;padding: 10px 0 10px 157px;background: #ddd; border: 1px solid #ddd;font-family: 'SourceSansPro', SansSerif;}
+.page-title h1{font-size: 13px;color: #888888;text-align: left;padding: 10px 0 10px 157px;background: #ddd; border: 1px solid #ddd;font-family: 'SourceSansPro', SansSerif;text-transform: uppercase;}
 /* Expiration date and CVV number validation fix */
 .v-fix { float:left; }
 .v-fix .validation-advice { display:block; width:12em; margin-right:-12em; position:relative; }
@@ -1623,9 +1623,17 @@ tr.summary-details-excluded { font-style:italic; }
 
 
 /* Account Login/Create Pages ============================================================ */
-.account-login {}
-.account-login .new-users {}
-.account-login .registered-users {}
+.account-login .wrap-account{width: 80%;margin: auto;font-family:  'SourceSansPro';padding:45px 20px 145px 20px; font-size: 16px;}
+.account-login .wrap-account h2{font-size: 20px;padding: 20px;text-transform: uppercase;
+    color: #AA547D;}
+.account-login .wrap-account p{padding: 20px;}
+.account-login .wrap-account .buttons-set{background:#AA547D; margin: 18px 0 0 0;}
+.account-login .wrap-account .form-list label{font-size: 14px;font-weight: inherit;}
+.account-login .wrap-account .registered-users a{margin:45px 0; display: inline-block}
+.account-login .wrap-account .form-list input.input-text{padding-left: 5px;}
+.account-login .new-users button,.account-login .registered-users button{font-size: 18px; text-transform: uppercase;padding: 10px 0;}
+.account-login .registered-users button span{font-size:18px;text-transform: uppercase;}
+.account-login .wrap-account .buttons-set:hover{background: #834260;}
 
 .account-create {}
 /* Account Login/Create Pages ============================================================ */
