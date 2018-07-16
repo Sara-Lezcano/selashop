@@ -7,7 +7,7 @@ body          { background:#fff; font:12px/1.35 Arial, Helvetica, sans-serif; co
 
 img           { border:0; vertical-align:top; }
 
-a             { color:#05c; text-decoration:underline; }
+a             { text-decoration:underline; }
 a:hover       { text-decoration:none; }
 :focus        { outline:0; }
 /*fonts*/
@@ -34,11 +34,11 @@ a:hover       { text-decoration:none; }
 
 /* Headings */
 h1            { font-size:20px; font-weight:normal; line-height:1.15; }
-h2            { font-size:18px; font-weight:bold; line-height:1; }
-h3            { font-size:16px; font-weight:bold; line-height:1.25; }
-h4            { font-size:14px; font-weight:bold; }
-h5            { font-size:12px; font-weight:bold; }
-h6            { font-size:11px; font-weight:bold; }
+h2            {}
+h3            { font-size:16px;line-height:1.25; }
+h4            { font-size:14px;  }
+h5            { font-size:12px; }
+h6            { font-size:11px; }
 
 /* Forms */
 form          { display:inline; }
@@ -199,7 +199,7 @@ p.control input.radio { margin-right:6px; }
 .form-list .name-suffix select { width:55px; }
 .form-list .name-suffix input.input-text { width:49px; }
 
-.form-list .name-middlename { width:70px; }
+.form-list .name-middlename {}
 .form-list .name-middlename input.input-text { width:49px; }
 
 .form-list .customer-name-prefix-middlename-suffix .name-firstname,
@@ -225,13 +225,13 @@ p.control input.radio { margin-right:6px; }
 .form-list .customer-name-suffix .name-lastname,
 .form-list .customer-name-middlename .name-firstname,
 .form-list .customer-name-middlename-suffix .name-firstname,
-.form-list .customer-name-middlename-suffix .name-lastname { width:205px; }
+.form-list .customer-name-middlename-suffix .name-lastname { width:100%; }
 
 .form-list .customer-name-prefix .name-firstname input.input-text,
 .form-list .customer-name-suffix .name-lastname input.input-text,
 .form-list .customer-name-middlename .name-firstname input.input-text,
 .form-list .customer-name-middlename-suffix .name-firstname input.input-text,
-.form-list .customer-name-middlename-suffix .name-lastname input.input-text { width:189px; }
+.form-list .customer-name-middlename-suffix .name-lastname input.input-text {  }
 
 .form-list .customer-dob .dob-month,
 .form-list .customer-dob .dob-day,
@@ -245,7 +245,7 @@ p.control input.radio { margin-right:6px; }
 .form-list .customer-dob .dob-year { width:140px; }
 .form-list .customer-dob .dob-year input.input-text { width:134px; }
 
-.buttons-set { clear:both; margin:5px 0 0; padding:5px; border:1px solid #ddd; display: flex;justify-content: center;}
+.buttons-set { clear:both; margin:5px 0 0; padding:5px; display: flex;justify-content: center;}
 .buttons-set .back-link { float:left; }
 .buttons-set button.button { float:right; }
 .buttons-set p.required { margin:0 0 5px; }
@@ -1624,7 +1624,7 @@ tr.summary-details-excluded { font-style:italic; }
 
 /* Account Login/Create Pages ============================================================ */
 .account-login .wrap-account{width: 80%;margin: auto;font-family:  'SourceSansPro';padding:45px 20px 145px 20px; font-size: 16px;}
-.account-login .wrap-account h2{font-size: 20px;padding: 20px;text-transform: uppercase;
+.account-login .wrap-account h2{font-size: 30px;padding: 20px;text-transform: uppercase;
     color: #AA547D;}
 .account-login .wrap-account p{padding: 20px;}
 .account-login .wrap-account .buttons-set{background:#AA547D; margin: 18px 0 0 0;}
@@ -1635,9 +1635,33 @@ tr.summary-details-excluded { font-style:italic; }
 .account-login .registered-users button span{font-size:18px;text-transform: uppercase;}
 .account-login .wrap-account .buttons-set:hover{background: #834260;}
 
-.account-create {}
-/* Account Login/Create Pages ============================================================ */
 
+
+/* Account Login/Create Pages ============================================================ */
+.account-create .wrap-register{width: 80%;margin: auto;padding:45px 20px 145px 20px;font-family:  'SourceSansPro';}
+.account-create .wrap-register h1{font-size:30px;padding: 20px;text-transform: uppercase; color: #AA547D;}
+.account-create .wrap-register h2{color: #AA547D;font-size: 25px;padding: 20px 0;}
+.account-create wrap-register .input-box input#firstname{width: 100%;border: 1px solid #AA547D; }
+.account-create .wrap-register .fieldset{padding: 0 20px;}
+.account-create .wrap-register .input-box input[type=text],.account-create .wrap-register .input-box input[type=text],.account-create .wrap-register .input-box input[type=password]{padding-left: 5px}
+.account-create .wrap-register .customer-name-middlename{width: 100%;}
+.account-create input.input-text, select, textarea{border: 1px solid #AA547D;}
+.account-create .wrap-register .form-list .name-middlename input.input-text{width: 100%;}
+.account-create .wrap-register .control { margin: 20px 0}
+.account-create .wrap-register .control label{background: #ddd;padding: 10px}
+.account-create .wrap-register p > a.back-link{color:#AA547D; text-transform: uppercase;font-size: 16px}
+
+
+/* style forgot password */
+.wrap-forgotPass{width: 80%;margin: auto;padding:45px 20px 145px 20px;font-family:  'SourceSansPro';}
+.wrap-forgotPass h1{font-size:30px;padding: 20px;text-transform: uppercase; color: #AA547D;}
+.wrap-forgotPass .legend{color: #AA547D;font-size: 25px;padding: 0 0 20px 0;}
+.wrap-forgotPass p.back-link > a{color:#AA547D; text-transform: uppercase;font-size: 16px}
+.wrap-forgotPass .fieldset p{font-size: 16px}
+.wrap-forgotPass .fieldset{padding: 0 20px;display: flex;flex-direction: column;}
+.wrap-forgotPass .form-list li{width:70%;margin:30px auto}
+.wrap-forgotPass .form-list input{padding-left: 5px}
+.wrap-forgotPass input.input-text{border: 1px solid #AA547D;}
 /* Captcha */
 .captcha-note  {}
 .captcha-image { float:left; position:relative; }
